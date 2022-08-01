@@ -1,15 +1,15 @@
 import { differenceInSeconds } from 'date-fns'
 import {
-    createContext,
-    ReactNode,
-    useEffect,
-    useReducer,
-    useState
+  createContext,
+  ReactNode,
+  useEffect,
+  useReducer,
+  useState
 } from 'react'
 import {
-    addNewCycleAction,
-    interruptCurrentCycleAction,
-    markCurrentCycleAsFinishedAction
+  addNewCycleAction,
+  interruptCurrentCycleAction,
+  markCurrentCycleAsFinishedAction
 } from '../reducers/cycles/actions'
 import { Cycle, cyclesReducer } from '../reducers/cycles/reducer'
 
